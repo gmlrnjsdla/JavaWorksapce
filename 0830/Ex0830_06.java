@@ -25,17 +25,20 @@ public class Ex0830_06 {
 //		System.out.println(!(10 < 3));
 		
 		//a ? b : c ==> if~else
-		Scanner sc = new Scanner(System.in);
-		System.out.println("세 숫자를 입력하세요. : ");
-		int max;
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		int c = sc.nextInt();
-		max = a > b ? a : b;
-		max = max > c ? max : c;
-		System.out.println("최대값은 " + max + "입니다.");
-		
-		sc.close();
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("네 수를 입력하세요. :");
+//		int min;
+//		int a = sc.nextInt();
+//		int b = sc.nextInt();
+//		int c = sc.nextInt();
+//		int d = sc.nextInt();
+//		
+//		min = a < b ? a : b;
+//		min = min < c ? min : c;
+//		min = min < d ? min : d;
+//		System.out.println("최소값은 " + min + "입니다.");
+//		
+//		sc.close();
 	
 	}
 
