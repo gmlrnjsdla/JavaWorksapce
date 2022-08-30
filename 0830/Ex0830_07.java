@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ex0830_07 {
 
 	public static void main(String[] args) {
-		//1번
+		//1번 환율 계산
 //		double won;
 //		double dol;
 //		Scanner sc = new Scanner(System.in);
@@ -40,7 +40,7 @@ public class Ex0830_07 {
 //		sc.close();
 //------------------------------------------------------------------//
 		
-		//1-4번
+		//1-4번 cm --> feet inch?
 //		int feet, inch;
 //		double cm;
 //		Scanner sc = new Scanner(System.in);
@@ -55,7 +55,7 @@ public class Ex0830_07 {
 		
 //----------------------------------------------------------//
 		
-		//2번
+		//2번 십의자리와 일의자리가 같은가?
 //		int num;
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("2자리수 정수 입력(10~99) >> ");
@@ -68,13 +68,13 @@ public class Ex0830_07 {
 //			System.out.println("No! 10의 자리와 1의 자리가 같지않습니다.");
 //------------------------------------------------------------------//
 		
-		//3번
+		//3번 동전
 //		int won;
 //		Scanner sc = new Scanner(System.in);
 //		won = sc.nextInt();
 //------------------------------------------------------------------//
 		
-		//4번
+		//4번 3개의 숫자중 중간크기의 수를 출력
 //		int a,b,c;
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("정수 3개 입력 : ");
@@ -92,7 +92,7 @@ public class Ex0830_07 {
 //		sc.close();
 //-----------------------------------------------------------------//
 		
-		//5번
+		//5번 삼각형을 만들 수 있는지 판별
 //		int a,b,c;
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("정수 3개 입력 : ");
