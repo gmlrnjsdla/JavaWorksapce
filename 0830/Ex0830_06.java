@@ -45,13 +45,15 @@ public class Ex0830_06 {
 	      //  5 : 0 0000000000000000000000000000101
 	      //      0 0000000000000000000000000001111
 	      //      0 0000000000000000000000000000000
-		int a = 10, b = 5;
-		System.out.println(a & b);
-		System.out.println(a | b);
-		System.out.println(~a);
-		System.out.println(a ^ b);
-		System.out.println(a << 3);
-		System.out.println(a >> 3);
+//		int a = 10, b = 5;
+//		System.out.println(a & b);
+//		System.out.println(a | b);
+//		System.out.println(~a);
+//		System.out.println(a ^ b);
+//		System.out.println(a << 3);
+//		System.out.println(a >> 3);
+		
+		
 	}
 
 }
