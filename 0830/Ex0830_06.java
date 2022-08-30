@@ -16,10 +16,13 @@ public class Ex0830_06 {
 //		System.out.println(10 < 3 && 10 > 3);
 //		System.out.println(10 < 3 && 10 < 3);
 		
-		System.out.println(10 > 3 || 10 > 3);
-		System.out.println(10 > 3 || 10 < 3);
-		System.out.println(10 < 3 || 10 > 3);
-		System.out.println(10 < 3 || 10 < 3);
+//		System.out.println(10 > 3 || 10 > 3);
+//		System.out.println(10 > 3 || 10 < 3);
+//		System.out.println(10 < 3 || 10 > 3);
+//		System.out.println(10 < 3 || 10 < 3);
+		
+		System.out.println(!(10 > 3));
+		System.out.println(!(10 < 3));
 	
 	}
 
