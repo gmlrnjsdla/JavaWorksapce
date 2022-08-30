@@ -38,6 +38,21 @@ public class Ex0830_07 {
 //				"inch는 " + (fcm+icm) + "cm입니다.");
 //		
 //		sc.close();
+//------------------------------------------------------------------//
+		
+		//1-4번
+//		int feet, inch;
+//		double cm;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("cm 입력: ");
+//		cm = sc.nextDouble();
+//		
+//		feet = (int) (cm / 30.48);
+//		inch = (int) ((cm % 30.48) / 2.54);
+//		System.out.println(cm + "cm는 " +feet+ "feet " +inch+ "inch 입니다.");
+//		
+//		sc.close();
+		
 //----------------------------------------------------------//
 		
 		//2번
