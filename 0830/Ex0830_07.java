@@ -68,7 +68,7 @@ public class Ex0830_07 {
 //			System.out.println("No! 10의 자리와 1의 자리가 같지않습니다.");
 //------------------------------------------------------------------//
 		
-		//3번 동전
+		//3번 동전 ..귀찮아
 //		int won;
 //		Scanner sc = new Scanner(System.in);
 //		won = sc.nextInt();
@@ -76,6 +76,7 @@ public class Ex0830_07 {
 		
 		//4번 3개의 숫자중 중간크기의 수를 출력
 //		int a,b,c;
+//		
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("정수 3개 입력 : ");
 //		a = sc.nextInt();
