@@ -15,9 +15,9 @@ public class Ex0830_02 {
 		height = scanner.nextInt();
 		
 		result = width * height;
-		System.out.println("사각형의 넓이 = " + result);
+		System.out.println("사각형의 넓이 = " + result + "㎠");
 		result = width * height /2;
-		System.out.println("삼각형의 넓이 = " + result);
+		System.out.println("삼각형의 넓이 = " + result + "㎠");
 		
 		scanner.close();
 
