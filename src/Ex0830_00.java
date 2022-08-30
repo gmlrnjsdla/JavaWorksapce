@@ -1,6 +1,6 @@
 //사각형의 넓이 구하기
 import java.util.Scanner;
-public class Ex0830 {
+public class Ex0830_00 {
 	public static double area(double i, double j) {
 		return i * j;
 	}
