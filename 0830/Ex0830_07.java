@@ -22,6 +22,22 @@ public class Ex0830_07 {
 //		m = km * 1000;
 //		System.out.println(m + "M 입니다.");
 //		sc.close();
+//-------------------------------------------------------------//
+		//1-3번 feet inch = ?cm
+//		int feet, inch;
+//		double fcm, icm;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("feet 입력: ");
+//		feet = sc.nextInt();
+//		System.out.print("inch 입력: ");
+//		inch = sc.nextInt();
+//		
+//		fcm = feet * 30.48;
+//		icm = inch * 2.54;
+//		System.out.println(feet + "feet " + inch + 
+//				"inch는 " + (fcm+icm) + "cm입니다.");
+//		
+//		sc.close();
 //----------------------------------------------------------//
 		
 		//2번
@@ -44,20 +60,37 @@ public class Ex0830_07 {
 //------------------------------------------------------------------//
 		
 		//4번
-		int a,b,c;
-		Scanner sc = new Scanner(System.in);
-		System.out.print("정수 3개 입력 : ");
-		a = sc.nextInt();
-		b = sc.nextInt();
-		c = sc.nextInt();
-		if((a>b && a<c)||(a>c && a<b))
-			System.out.println(a);
-		else if ((b>a && b<c)||(b>c && b<a))
-			System.out.println(b);
-		else
-			System.out.println(c);
+//		int a,b,c;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("정수 3개 입력 : ");
+//		a = sc.nextInt();
+//		b = sc.nextInt();
+//		c = sc.nextInt();
+//		
+//		if((a>b && a<c)||(a>c && a<b))
+//			System.out.println(a);
+//		else if ((b>a && b<c)||(b>c && b<a))
+//			System.out.println(b);
+//		else
+//			System.out.println(c);
+//		
+//		sc.close();
+//-----------------------------------------------------------------//
 		
-		sc.close();
+		//5번
+//		int a,b,c;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("정수 3개 입력 : ");
+//		a = sc.nextInt();
+//		b = sc.nextInt();
+//		c = sc.nextInt();
+//		
+//		if(((a+b)>c) && (b+c)>a && (a+c)>b)
+//			System.out.println("삼각형이 됩니다.");
+//		else
+//			System.out.println("삼각형이 안됩니다.");
+//		
+//		sc.close();
 	}
 
 }
