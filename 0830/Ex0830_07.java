@@ -68,7 +68,7 @@ public class Ex0830_07 {
 //			System.out.println("No! 10의 자리와 1의 자리가 같지않습니다.");
 //------------------------------------------------------------------//
 		
-		//3번 동전 ..귀찮아
+		//3번 동전..귀찮아
 //		int won;
 //		Scanner sc = new Scanner(System.in);
 //		won = sc.nextInt();
