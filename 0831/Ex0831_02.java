@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Ex0831_02 {
 	public static void main (String[] args) {
+		//채널 이름
 //		int channel;
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("당신이 좋아하는 채널 번호는?");
@@ -23,8 +24,10 @@ public class Ex0831_02 {
 //		}
 //		
 //		sc.close();
+		
 //===================================================================//
 		
+		//영단어 >> 한글
 //		String word;
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("단어 입력 :");
@@ -51,9 +54,9 @@ public class Ex0831_02 {
 
 //=================================================================//
 		
-//		Scanner scanner = new Scanner(System.in);
-//		
+		//성적 출력
 //		char grade;
+//		Scanner scanner = new Scanner(System.in);				
 //		System.out.print("점수를 입력하세요(0~100): ");
 //		int score = scanner.nextInt();
 //		switch (score/10) {
