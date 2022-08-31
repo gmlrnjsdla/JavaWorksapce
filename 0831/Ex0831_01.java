@@ -115,24 +115,21 @@ public class Ex0831_01 {
 //===============================================================//
 		
 		//화씨 => 섭씨 ? 섭씨 => 화씨 ? 선택후 출력
-		double c,f;
+		double c,f,temp;
 		int num;
 		Scanner sc = new Scanner(System.in);
-		System.out.print("화씨 -> 섭씨  1 입력, 섭씨 -> 화씨 2입력 : ");
+		System.out.print("화씨 -> 섭씨  1 입력\n섭씨 -> 화씨  2 입력 : ");
 		num = sc.nextInt();
+		System.out.print("온도 입력: ");
+		temp = sc.nextDouble();
 		
 		if(num ==1) {
-			System.out.print("화씨 입력: ");
-			f = sc.nextDouble();
-			c = (double)5/9 * (f - 32);
-			System.out.println("화씨"+f+"도는 섭씨 "+c+"도");
+			c = (double)5/9 * (temp - 32);
+			System.out.println("화씨"+temp+"도는 섭씨 "+c+"도");
 		}
-		
 		else {
-			System.out.print("섭씨 입력: ");
-			c = sc.nextDouble();
-			f = (double)9/5*c + 32;
-			System.out.println("섭씨"+c+"도는 화씨 "+f+"도");
+			f = (double)9/5 * (temp + 32);
+			System.out.println("섭씨"+temp+"도는 화씨 "+f+"도");
 		}
 		 
 		sc.close();
