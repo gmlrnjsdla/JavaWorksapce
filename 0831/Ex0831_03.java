@@ -26,16 +26,50 @@ public class Ex0831_03 {
 		
 //===============================================================//
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.print("정수 입력: ");
-		int num = sc.nextInt();
+		//홀짝
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("정수 입력: ");
+//		int num = sc.nextInt();
+//		
+//		switch(num%2) {
+//		case 0:
+//			System.out.println("짝수");
+//			break;
+//		case 1:
+//			System.out.println("홀수");
+//			
+//		sc.close();
+//	}
+//================================================================//
+		//계산
 		
-		switch(num%2) {
-		case 0:
-			System.out.println("짝수");
+		Scanner sc = new Scanner(System.in);
+		System.out.print("숫자1:" );
+		int a = sc.nextInt();
+		System.out.print("숫자2:" );
+		int b = sc.nextInt();
+		System.out.print("연산자:" );
+		String op = sc.next();
+		
+		switch(op) {
+		case "*":
+			System.out.println(a + " x " +b+ " = " + (a*b));
 			break;
-		case 1:
-			System.out.println("홀수");
+		case "+":
+			System.out.println(a + " + " +b+ " = " + (a+b));
+			break;
+		case "-":
+			System.out.println(a + " - " +b+ " = " + (a-b));
+			break;
+		case "/":
+			System.out.println(a + " / " +b+ " = " + (a/b));
+			break;
+		case "%":
+			System.out.println(a + " % " +b+ " = " + (a%b));
+			break;
+		default:
+			System.out.println("오류");
 		}
+		sc.close();
 	}
 }
