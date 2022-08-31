@@ -48,7 +48,7 @@ public class Ex0831_03 {
 		int a = sc.nextInt();
 		System.out.print("숫자2: " );
 		int b = sc.nextInt();
-		System.out.print("연산자: " );
+		System.out.print("연산자( *, +, -, /, %): " );
 		String op = sc.next();
 		
 		switch(op) {
