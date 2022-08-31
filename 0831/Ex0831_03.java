@@ -44,11 +44,11 @@ public class Ex0831_03 {
 		//계산
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("숫자1:" );
+		System.out.print("숫자1: " );
 		int a = sc.nextInt();
-		System.out.print("숫자2:" );
+		System.out.print("숫자2: " );
 		int b = sc.nextInt();
-		System.out.print("연산자:" );
+		System.out.print("연산자: " );
 		String op = sc.next();
 		
 		switch(op) {
@@ -62,7 +62,10 @@ public class Ex0831_03 {
 			System.out.println(a + " - " +b+ " = " + (a-b));
 			break;
 		case "/":
-			System.out.println(a + " / " +b+ " = " + (a/b));
+			if(b == 0)
+				System.out.println("0으로 나누면 안됩니다.");
+			else
+				System.out.println(a + " / " +b+ " = " + (double)a/b);
 			break;
 		case "%":
 			System.out.println(a + " % " +b+ " = " + (a%b));
