@@ -66,9 +66,26 @@ public class Ex0830_07 {
 //		
 //		else
 //			System.out.println("No! 10의 자리와 1의 자리가 같지않습니다.");
+//		sc.close;
+//-------------------------------------------------------------------//
+		
+		//2번 십의자리와 일의자리가 같은가?  (switch)
+//		int num;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("2자리수 정수 입력(10~99) >> ");
+//		num = sc.nextInt();
+//		
+//		switch(num%11) {
+//		case 0:
+//			System.out.println("Yes! 10의 자리와 1의 자리가 같습니다.");
+//			break;
+//		default:
+//			System.out.println("No! 10의 자리와 1의 자리가 같지않습니다.");
+//		}
+//		sc.close();
 //------------------------------------------------------------------//
 		
-		//3번 동전 ..귀찮아
+		//3번 동전  ..귀찮아
 //		int won;
 //		Scanner sc = new Scanner(System.in);
 //		won = sc.nextInt();
@@ -101,12 +118,30 @@ public class Ex0830_07 {
 //		b = sc.nextInt();
 //		c = sc.nextInt();
 //		
-//		if(((a+b)>c) && (b+c)>a && (a+c)>b)
+//		if((a+b)>c && (b+c)>a && (a+c)>b)
 //			System.out.println("삼각형이 됩니다.");
 //		else
 //			System.out.println("삼각형이 안됩니다.");
 //		
 //		sc.close();
+		
+//------------------------------------------------------------------//
+		
+		//7번 x,y좌표가 직사각형 범위내에 있는지 여부 판단
+//		int x, y;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("점 (x,y)의 좌표를 입력하시오 >> ");
+//		x = sc.nextInt();
+//		y = sc.nextInt();
+//		
+//		if((x>100 && x<200) && (y>100 && y<200))
+//			System.out.println("("+x+" , "+y+")는 사각형 안에 있습니다.");
+//		else
+//			System.out.println("("+x+" , "+y+")는 사각형 안에 없습니다.");
+//		
+//		sc.close();
+		
+//---------------------------------------------------------------------//
 	}
 
 }
