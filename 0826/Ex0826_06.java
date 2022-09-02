@@ -1,5 +1,5 @@
 
-public class Test {
+public class Ex0826_06 {
 
    public static void main(String[] args) {
       // 주석문

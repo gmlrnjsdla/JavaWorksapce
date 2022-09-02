@@ -1,5 +1,5 @@
 
-public class Hello {
+public class Ex0826_03 {
    
    
    public static int sum(int n, int m) {

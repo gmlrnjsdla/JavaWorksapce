@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class ScannerEx2 {
+public class Ex0826_05 {
 
    public static void main(String[] args) {
       

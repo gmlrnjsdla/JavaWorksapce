@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex {
+public class Ex0826_01 {
    
    public static double area(double i, double j) {
       return i * j;
