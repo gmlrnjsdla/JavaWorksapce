@@ -72,7 +72,7 @@ public class Ex0831_03 {
 			System.out.println(a + " % " +b+ " = " + (a%b));
 			break;
 		default:
-			System.out.println("오류");
+			System.out.println("오류입니다.");
 		}
 		sc.close();
 	}
