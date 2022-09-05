@@ -126,7 +126,24 @@ public class Ex0830_07 {
 //		sc.close();
 		
 //------------------------------------------------------------------//
+		//6번 369게임
+
+//		int num;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("1~99사이의 정수를 입력하시오>>");
+//		num = sc.nextInt();
+//		System.out.print("박수 ");
+//		
+//		if (num<1 || num>100)
+//			System.out.println("1~99 사이의 정수를 입력해주세요");
+//		if ((num/10)>0 && (num/10) % 3 == 0)
+//			System.out.print("짝");
+//		if ((num%10)!=0 && (num%10)%3==0)
+//			System.out.print("짝");
+//		
+//		sc.close();
 		
+//------------------------------------------------------------------//
 		//7번 x,y좌표가 직사각형 범위내에 있는지 여부 판단
 //		int x, y;
 //		Scanner sc = new Scanner(System.in);
@@ -142,6 +159,56 @@ public class Ex0830_07 {
 //		sc.close();
 		
 //---------------------------------------------------------------------//
+
+		//11번
+//		int month;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("달을 입력하세요(1~12)>>");
+//		month = sc.nextInt();
+//		
+//		if (month>=3 && month <=5)
+//			System.out.println("봄");
+//		else if (month>=6 && month <=8)
+//			System.out.println("여름");
+//		else if (month>=9 && month <=11)
+//			System.out.println("가을");
+//		else if (month == 1 || month ==2 || month ==12)
+//			System.out.println("겨울");
+//		else 
+//			System.out.println("잘못입력");
+//		
+//		sc.close();
+		
+		int month;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("달을 입력하세요(1~12)>>");
+		month = sc.nextInt();
+		
+		switch(month) {
+		case 1:
+		case 2:
+		case 12:
+			System.out.println("겨울");
+		break;
+		case 3:
+		case 4:
+		case 5:
+			System.out.println("봄");
+		break;
+		case 6:
+		case 7:
+		case 8:
+			System.out.println("여름");
+		break;
+		case 9:
+		case 10:
+		case 11:
+			System.out.println("가을");
+		break;
+		default:
+			System.out.println("잘못입력");
+		}
+		sc.close();
 	}
 
 }
