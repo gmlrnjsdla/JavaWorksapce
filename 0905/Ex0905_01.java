@@ -91,7 +91,7 @@ public class Ex0905_01 {
 //		System.out.println("둘의 합: "+(sum1+sum2));
 		
 //==========================================================//
-		
+		//팩토리얼
 //		int num,sum=1,i;
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("값을 입력하세요 >> ");
@@ -105,6 +105,21 @@ public class Ex0905_01 {
 		
 //=============================================================//
 		
+		//5명의 임의의 국어점수를 입력받아 총점과 평균
+		double sum=0;
+		int score,n;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("인원 수 >> ");
+		n= sc.nextInt();
 		
+		for(int i=1;i<=n;i++) {
+			
+			score = ((int)(Math.random()*101));
+			System.out.println("점수 >> " + score);
+			sum = score+sum;
+		}
+		System.out.println("총점은 : "+sum+" 평균은 : "+sum/n);
+			
+		sc.close();
 	}
 }
