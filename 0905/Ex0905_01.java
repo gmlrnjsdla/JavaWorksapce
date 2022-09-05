@@ -54,17 +54,57 @@ public class Ex0905_01 {
 		
 //======================================================//
 		//369게임
-		int num, i ;
-		Scanner sc = new Scanner(System.in);
-		System.out.print("수를 입력하세요 >> ");
-		num = sc.nextInt();
+//		int num, i ;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("수를 입력하세요 >> ");
+//		num = sc.nextInt();
+//		
+//		for(i=1;i<=4;i++) {
+//			
+//			if(num%10 !=0 && num%10%3==0)
+//				System.out.print("짝");
+//			num = num /10;
+//		}
+//		sc.close();
 		
-		for(i=1;i<=4;i++) {
+//========================================================//
+		//1부터 ?까지의 합 구하기
+//		int i=1;
+//		int sum =0;
+//		while(true){
+//			sum = sum +i;
+//			System.out.println(i+"=> sum: "+sum);
+//			if(sum>40000000)
+//				break;
+//			i++;	
+//		}
+//========================================================//
 			
-			if(num%10 !=0 && num%10%3==0)
-				System.out.print("짝");
-			num = num /10;
-		}
-		sc.close();
+//		int i,sum1=0 ,sum2=0;
+//		for(i=1;i<=100;i++) {
+//			if(i%2 !=0)
+//				sum1 = sum1+i;
+//			else if (i%2 ==0)
+//				sum2 = sum2+i;
+//		}
+//		System.out.println("홀수의 합: "+sum1+" 짝수의 합 : "+sum2);
+//		System.out.println("둘의 합: "+(sum1+sum2));
+		
+//==========================================================//
+		
+//		int num,sum=1,i;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("값을 입력하세요 >> ");
+//		num = sc.nextInt();
+//		
+//		for(i=1;i<=num;i++)
+//			sum = sum *i;
+//		System.out.println(num+"! = "+sum);
+//		
+//		sc.close();
+		
+//=============================================================//
+		
+		
 	}
 }
