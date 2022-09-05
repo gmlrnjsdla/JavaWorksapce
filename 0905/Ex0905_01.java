@@ -106,20 +106,47 @@ public class Ex0905_01 {
 //=============================================================//
 		
 		//5명의 임의의 국어점수를 입력받아 총점과 평균
-		double sum=0;
-		int score,n;
-		Scanner sc = new Scanner(System.in);
-		System.out.print("인원 수 >> ");
-		n= sc.nextInt();
+//		double sum=0;
+//		int score,n;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("인원 수 >> ");
+//		n= sc.nextInt();
+//		
+//		for(int i=1;i<=n;i++) {
+//			
+//			score = ((int)(Math.random()*101));
+//			System.out.println("점수 >> " + score);
+//			sum = score+sum;
+//		}
+//		System.out.println("총점은 : "+sum+" 평균은 : "+sum/n);
+//			
+//		sc.close();
 		
-		for(int i=1;i<=n;i++) {
+//=================================================================//
+		//로또 생성기(1~45 6개 추출,중복x)
+		
+//		for(int i=1;i<=6;i++) {
+//			System.out.println((int)(Math.random()*45)+1);
+//			//(int)(Math.random()*최대값-최소값+1)+최소값
+//		}
+//================================================================//
+			//정수를 입력받아 이진수로 출력하시오.
 			
-			score = ((int)(Math.random()*101));
-			System.out.println("점수 >> " + score);
-			sum = score+sum;
+		int num;
+		String sBin="";
+		Scanner sc = new Scanner(System.in);
+		System.out.print("정수 입력 >> ");
+		num = sc.nextInt();
+		
+		while(true) {
+			sBin = num%2 + sBin;
+			System.out.print(num%2);
+			num = num/2;
+			if(num ==0) 
+				break;	
 		}
-		System.out.println("총점은 : "+sum+" 평균은 : "+sum/n);
-			
+		System.out.println(" >> "+sBin);
+		
 		sc.close();
 	}
 }
