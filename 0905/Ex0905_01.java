@@ -132,21 +132,25 @@ public class Ex0905_01 {
 //================================================================//
 			//정수를 입력받아 이진수로 출력하시오.
 			
-		int num;
-		String sBin="";
-		Scanner sc = new Scanner(System.in);
-		System.out.print("정수 입력 >> ");
-		num = sc.nextInt();
+//		int num;
+//		String sBin="";
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("정수 입력 >> ");
+//		num = sc.nextInt();
+//		
+//		while(true) {
+//			sBin = num%2 + sBin;
+//			System.out.print(num%2);
+//			num = num/2;
+//			if(num ==0) 
+//				break;	
+//		}
+//		System.out.println(" >> "+sBin);
+//		
+//		sc.close();
 		
-		while(true) {
-			sBin = num%2 + sBin;
-			System.out.print(num%2);
-			num = num/2;
-			if(num ==0) 
-				break;	
-		}
-		System.out.println(" >> "+sBin);
+//=============================================================//
 		
-		sc.close();
+		
 	}
 }
