@@ -12,12 +12,12 @@ private static void Check() {
 	int Jumin[] = new int[13];
     int Temp[]  = {2,3,4,5,6,7,8,9,2,3,4,5}, i, sum=0;
     for(i=0;i<2;i++) //년도
-        Jumin[i] = (int)(Math.random()*10);
-     
+        Jumin[i] = (int)(Math.random()*10);    
     int month = (int)(Math.random()*12)+1; //월
-    Jumin[2] = month/10;
-    Jumin[3] = month%10;
     int day = (int)(Math.random()*lastDay[month-1])+1; //일
+    
+    Jumin[2] = month/10;
+    Jumin[3] = month%10;   
     Jumin[4] = day/10;
     Jumin[5] = day%10;      
     Jumin[6] = (int)(Math.random()*4)+1; // 성별
