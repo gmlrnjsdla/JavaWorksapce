@@ -11,11 +11,21 @@ private static void Check() {
 	int lastDay[] = {31,28,31,30,31,30,31,31,30,31,30,31};
 	int Jumin[] = new int[13];
     int Temp[]  = {2,3,4,5,6,7,8,9,2,3,4,5}, i, sum=0;
-    for(i=0;i<2;i++) //년도
-        Jumin[i] = (int)(Math.random()*10);    
-    int month = (int)(Math.random()*12)+1; //월
-    int day = (int)(Math.random()*lastDay[month-1])+1; //일
     
+    int year = (int)(Math.random()*99);    
+    
+    int month = (int)(Math.random()*12)+1; //월
+    int day;
+    if(month != 2)
+    	day = (int)(Math.random()*lastDay[month-1])+1;
+     else {
+        if(year%4==0 && year%100!=0 || year%400==0) // 윤년 2월
+        	day = (int)(Math.random()*++lastDay[month-1])+1;
+        else
+        	day = (int)(Math.random()*lastDay[month-1])+1;
+    
+    Jumin[0] = year/10;
+    Jumin[1] = year%10;   
     Jumin[2] = month/10;
     Jumin[3] = month%10;   
     Jumin[4] = day/10;
@@ -37,5 +47,6 @@ private static void Check() {
     else
        System.out.println("주민번호 불일치");
 	
-}
+     	}
+	}
 }
