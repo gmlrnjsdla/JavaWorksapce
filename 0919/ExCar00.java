@@ -3,6 +3,7 @@ class ExCar00 {
    protected String company;
    public double money;
    private int speed;
+   
    public ExCar00() { // 생성자(클래스 이름과 같은) 메소드
 	   year=2022; company="kia"; money = 30000; speed=0;
    }
@@ -20,3 +21,4 @@ class ExCar00 {
    }   
 
 }
+
