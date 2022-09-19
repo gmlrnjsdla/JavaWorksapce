@@ -3,36 +3,45 @@
 // 234567892345
 public class Ex0919_07 {
    public static void main(String[] args) {
-      for(int i =0; i<100; i++)
+      for(int i =0; i<100; i++) {
     	  Check();
+      	  System.out.println("");
+      }
    }
 
 private static void Check() {
 	int lastDay[] = {31,28,31,30,31,30,31,31,30,31,30,31};
 	int Jumin[] = new int[13];
-    int Temp[]  = {2,3,4,5,6,7,8,9,2,3,4,5}, i, sum=0;
+    int Temp[]  = {2,3,4,5,6,7,8,9,2,3,4,5}, i, sum=0, year1=0;
+    int year = (int)(Math.random()*99);          
+    int day;
     
-    int year = (int)(Math.random()*99);    
+    Jumin[6] = (int)(Math.random()*4)+1; // 성별
+    
+    if(Jumin[6]== 1 || Jumin[6] == 2)
+    	year1 = year + 1900;
+    else if(Jumin[6]== 3 || Jumin[6] == 4)
+    	year1 = year + 2000;
     
     int month = (int)(Math.random()*12)+1; //월
-    int day;
-    if(month != 2)
-    	day = (int)(Math.random()*lastDay[month-1])+1;
-     else {
-        if(year%4==0 && year%100!=0 || year%400==0) // 윤년 2월
+    
+    if(month == 2) {
+    	if(year1%4==0 && year1%100!=0 || year1%400==0) // 윤년 2월
         	day = (int)(Math.random()*++lastDay[month-1])+1;
         else
         	day = (int)(Math.random()*lastDay[month-1])+1;
-    
+    }
+    else {
+    	 day = (int)(Math.random()*lastDay[month-1])+1;
+    }
+     
+        
     Jumin[0] = year/10;
     Jumin[1] = year%10;   
     Jumin[2] = month/10;
-    Jumin[3] = month%10;   
+    Jumin[3] = month%10;  
     Jumin[4] = day/10;
-    Jumin[5] = day%10;      
-    Jumin[6] = (int)(Math.random()*4)+1; // 성별
-    
-    
+    Jumin[5] = day%10; 
     for(i=7;i<12;i++)  // 성별 이후~
        Jumin[i] = (int)(Math.random()*10);
     
@@ -47,6 +56,6 @@ private static void Check() {
     else
        System.out.println("주민번호 불일치");
 	
-     	}
+     	
 	}
 }
