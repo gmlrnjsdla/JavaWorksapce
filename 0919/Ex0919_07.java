@@ -13,16 +13,20 @@ private static void Check() {
 	int lastDay[] = {31,28,31,30,31,30,31,31,30,31,30,31};
 	int Jumin[] = new int[13];
     int Temp[]  = {2,3,4,5,6,7,8,9,2,3,4,5}, i, sum=0, year1=0;
-    int year = (int)(Math.random()*99);          
+    int year=0;         
     int day;
     
   
     // 7번째 자리수가 1,2일때 19** , 3,4일때 20**
     Jumin[6] = (int)(Math.random()*4)+1; // 성별   
-    if(Jumin[6]== 1 || Jumin[6] == 2)
+    if(Jumin[6]== 1 || Jumin[6] == 2) {
+    	year = (int)(Math.random()*99);
     	year1 = year + 1900;
-    else if(Jumin[6]== 3 || Jumin[6] == 4)
+    }
+    else if(Jumin[6]== 3 || Jumin[6] == 4) {
+    	year = (int)(Math.random()*22);
     	year1 = year + 2000;
+    }
     
     
     
@@ -34,9 +38,9 @@ private static void Check() {
         else //2월, 윤년 아닐때
         	day = (int)(Math.random()*lastDay[month-1])+1;
     }
-    else //2월이 아닐때
+    else {//2월이 아닐때
     	 day = (int)(Math.random()*lastDay[month-1])+1;
-    
+    }
     
         
     Jumin[0] = year/10;
@@ -49,8 +53,11 @@ private static void Check() {
     for(i=7;i<12;i++)  // 성별 이후~
        Jumin[i] = (int)(Math.random()*10);
     
-    for(i=0; i<13; i++)
+    for(i=0; i<13; i++) {
     	System.out.print(Jumin[i]);
+    	if(i==5)
+    		System.out.print("-");
+    }
     for(i=0 ; i < Temp.length ; i++)
        sum = sum + Jumin[i]*Temp[i];
     sum = (11 - sum % 11) % 10;
