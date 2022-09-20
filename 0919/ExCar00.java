@@ -1,10 +1,10 @@
-class ExCar00 {
+class Car {
    int year;
    protected String company;
    public double money;
    private int speed;
    
-   public ExCar00() { // 생성자(클래스 이름과 같은) 메소드
+   public Car() { // 생성자(클래스 이름과 같은) 메소드
 	   year=2022; company="kia"; money = 30000; speed=0;
    }
    public void speedUp() {
@@ -22,3 +22,15 @@ class ExCar00 {
 
 }
 
+public class ExCar00{
+	   public static void main(String[] args) {      
+	      Car car = new Car();
+	      car.PrintInfo();
+	      car.year = 2023;   //default 직접 접근 가능
+	      car.money = 35000; //public 직접 접근 가능
+	      car.company = "Hyundai"; //protected 직접 접근 가능
+//	      car.speed = 100;  // private  직접 접근 불가능
+	      car.speedDown();   car.speedDown();   car.speedDown();
+	      car.PrintInfo();
+	   }
+	}
