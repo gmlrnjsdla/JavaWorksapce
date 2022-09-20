@@ -7,6 +7,9 @@ class Sample {
 	   b = n;
    }
    
+   public int getB() {
+	   return b;
+   }
 }
 
 public class Ex0920_01 {
@@ -16,5 +19,6 @@ public class Ex0920_01 {
 //      aClass.b = 10;	//private멤버는 변경 불가
       aClass.setB(10);
       aClass.c = 10;
+      System.out.println(aClass.getB());
    }
 }
