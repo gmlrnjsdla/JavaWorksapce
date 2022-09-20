@@ -19,7 +19,7 @@ public class Ex0920_06 {
 		Sub1 sub;
 		sub = (Sub1)super1; //Downcasting
 		sub.id=10;
-		sub.name = "hellp";
+		sub.name = "hello";
 	}
 
 }
