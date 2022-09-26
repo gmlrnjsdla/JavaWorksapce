@@ -42,6 +42,8 @@ public class CircleManager {
 			}
 		}
 		c[index].show();
+		
+		sc.close();
 	}
 
 }
