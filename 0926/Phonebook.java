@@ -49,6 +49,8 @@ public class Phonebook {
 			if(i==a.length)
 		            System.out.println(search + " 이 없습니다");			
 		}
+		
+		sc.close();
 	}
 
 }
