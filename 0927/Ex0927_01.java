@@ -1,13 +1,13 @@
-class TV11{
+class TV1{
 	private int size;
-	public TV11(int size) {
+	public TV1(int size) {
 		this.size = size;
 	}
 	protected int getSize() {
 		return size;
 	}
 }
-class ColorTV extends TV11{
+class ColorTV extends TV1{
 	private int color;
 	public ColorTV(int size, int color) {
 		super(size);
