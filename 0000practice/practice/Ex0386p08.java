@@ -13,6 +13,7 @@ public class Ex0386p08 {
 		for(int i=0; i<name.length(); i++) {
 			System.out.print(name.substring(i));
 			System.out.println(name.substring(0, i));
+			
 		}
 	}
 

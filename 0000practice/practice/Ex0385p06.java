@@ -40,6 +40,7 @@ public class Ex0385p06 {
          tenSeconds[i] = new TenSeconds(strNames[i]);
          tenSeconds[i].GuessTime();
          System.out.println("경과된 시간: " + tenSeconds[i].getSeconds());
+         
       }
       int minIdx = 0;
       for(int i=0;i<strNames.length;i++) 

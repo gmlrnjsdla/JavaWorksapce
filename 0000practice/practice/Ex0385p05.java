@@ -17,6 +17,7 @@ public class Ex0385p05 {
 			System.out.println("GOOD EVENING");
 		else
 			System.out.println("GOOD NIGHT");
+		
 	}
 
 }
